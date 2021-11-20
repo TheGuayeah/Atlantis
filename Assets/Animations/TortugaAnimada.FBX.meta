@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 246e779caeaff2649a269d8c9c890c1d
+timeCreated: 1504475528
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Character001
+    100002: Character001Hub003
+    100004: Character001Hub004
+    100006: Character001LArm1
+    100008: Character001LArm2
+    100010: Character001LArmCollarbone
+    100012: Character001LArmPalm
+    100014: Character001RArm1
+    100016: Character001RArm2
+    100018: Character001RArmCollarbone
+    100020: Character001RArmPalm
+    100022: Character001Spine1
+    100024: Character001Spine2
+    100026: Character001Spine3
+    100028: Character001Spine4
+    100030: Character001Tail1
+    100032: Character001Tail1 1
+    100034: Character001Tail2
+    100036: Character001Tail2 1
+    100038: Character001Tail3
+    100040: Character001Tail3 1
+    100042: Tortuga
+    100044: //RootNode
+    400000: Character001
+    400002: Character001Hub003
+    400004: Character001Hub004
+    400006: Character001LArm1
+    400008: Character001LArm2
+    400010: Character001LArmCollarbone
+    400012: Character001LArmPalm
+    400014: Character001RArm1
+    400016: Character001RArm2
+    400018: Character001RArmCollarbone
+    400020: Character001RArmPalm
+    400022: Character001Spine1
+    400024: Character001Spine2
+    400026: Character001Spine3
+    400028: Character001Spine4
+    400030: Character001Tail1
+    400032: Character001Tail1 1
+    400034: Character001Tail2
+    400036: Character001Tail2 1
+    400038: Character001Tail3
+    400040: Character001Tail3 1
+    400042: Tortuga
+    400044: //RootNode
+    4300000: Tortuga
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Tortuga
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: Character001Hub003
+        weight: 1
+      - path: Character001Hub003/Character001LArmCollarbone
+        weight: 1
+      - path: Character001Hub003/Character001LArmCollarbone/Character001LArm1
+        weight: 1
+      - path: Character001Hub003/Character001LArmCollarbone/Character001LArm1/Character001LArm2
+        weight: 1
+      - path: Character001Hub003/Character001LArmCollarbone/Character001LArm1/Character001LArm2/Character001LArmPalm
+        weight: 1
+      - path: Character001Hub003/Character001RArmCollarbone
+        weight: 1
+      - path: Character001Hub003/Character001RArmCollarbone/Character001RArm1
+        weight: 1
+      - path: Character001Hub003/Character001RArmCollarbone/Character001RArm1/Character001RArm2
+        weight: 1
+      - path: Character001Hub003/Character001RArmCollarbone/Character001RArm1/Character001RArm2/Character001RArmPalm
+        weight: 1
+      - path: Character001Hub003/Character001Spine1
+        weight: 1
+      - path: Character001Hub003/Character001Spine1/Character001Spine2
+        weight: 1
+      - path: Character001Hub003/Character001Spine1/Character001Spine2/Character001Spine3
+        weight: 1
+      - path: Character001Hub003/Character001Spine1/Character001Spine2/Character001Spine3/Character001Spine4
+        weight: 1
+      - path: Character001Hub003/Character001Spine1/Character001Spine2/Character001Spine3/Character001Spine4/Character001Hub004
+        weight: 1
+      - path: Character001Hub003/Character001Tail1
+        weight: 1
+      - path: Character001Hub003/Character001Tail1/Character001Tail2
+        weight: 1
+      - path: Character001Hub003/Character001Tail1/Character001Tail2/Character001Tail3
+        weight: 1
+      - path: Character001Hub003/Character001Tail1 1
+        weight: 1
+      - path: Character001Hub003/Character001Tail1 1/Character001Tail2 1
+        weight: 1
+      - path: Character001Hub003/Character001Tail1 1/Character001Tail2 1/Character001Tail3
+          1
+        weight: 1
+      - path: Tortuga
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

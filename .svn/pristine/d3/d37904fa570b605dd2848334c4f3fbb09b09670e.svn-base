@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlantisSVN.Plugins", "AtlantisSVN.Plugins.csproj", "{B8C50002-A906-A331-B592-483B8740D628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlantisSVN", "AtlantisSVN.csproj", "{FFAC0327-9C66-A1EB-F003-EDB69774C473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlantisSVN.Editor.Plugins", "AtlantisSVN.Editor.Plugins.csproj", "{1A7222E5-746B-52B9-F6A8-19EA2D10950D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtlantisSVN.Editor", "AtlantisSVN.Editor.csproj", "{B15ABB5D-0753-75CA-CD49-71D37FC08C95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C50002-A906-A331-B592-483B8740D628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C50002-A906-A331-B592-483B8740D628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C50002-A906-A331-B592-483B8740D628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C50002-A906-A331-B592-483B8740D628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFAC0327-9C66-A1EB-F003-EDB69774C473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFAC0327-9C66-A1EB-F003-EDB69774C473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFAC0327-9C66-A1EB-F003-EDB69774C473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFAC0327-9C66-A1EB-F003-EDB69774C473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A7222E5-746B-52B9-F6A8-19EA2D10950D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A7222E5-746B-52B9-F6A8-19EA2D10950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A7222E5-746B-52B9-F6A8-19EA2D10950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A7222E5-746B-52B9-F6A8-19EA2D10950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15ABB5D-0753-75CA-CD49-71D37FC08C95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15ABB5D-0753-75CA-CD49-71D37FC08C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15ABB5D-0753-75CA-CD49-71D37FC08C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15ABB5D-0753-75CA-CD49-71D37FC08C95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

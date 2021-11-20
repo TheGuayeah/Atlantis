@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: c6c29c7dc65dff54ba650bc68628c860
+timeCreated: 1504805954
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: CAPSULE
+    100002: CapsuleRetopo
+    100004: CATRigHub001
+    100006: CATRigHub002
+    100008: CATRigHub003
+    100010: CATRigHub003Bone001
+    100012: CATRigHub003Bone002
+    100014: CATRigHub003Bone002Bone001
+    100016: CATRigHub003Bone002Bone001Bone001
+    100018: CATRigHub003Bone002Bone001Bone001Bone001
+    100020: CATRigLArm1
+    100022: CATRigLArm2
+    100024: CATRigLArmCollarbone
+    100026: CATRigLArmIKTarget
+    100028: CATRigLArmPalm
+    100030: CATRigLLeg1
+    100032: CATRigLLeg2
+    100034: CATRigLLegAnkle
+    100036: CATRigLLegPlatform
+    100038: CATRigRArm1
+    100040: CATRigRArm2
+    100042: CATRigRArmCollarbone
+    100044: CATRigRArmIKTarget
+    100046: CATRigRArmPalm
+    100048: CATRigRLeg1
+    100050: CATRigRLeg2
+    100052: CATRigRLegAnkle
+    100054: CATRigRLegPlatform
+    100056: CATRigSpine
+    100058: CATRigSpine 1
+    100060: Character001
+    100062: Circle001
+    100064: Circle001 1
+    100066: Obi
+    100068: //RootNode
+    400000: CAPSULE
+    400002: CapsuleRetopo
+    400004: CATRigHub001
+    400006: CATRigHub002
+    400008: CATRigHub003
+    400010: CATRigHub003Bone001
+    400012: CATRigHub003Bone002
+    400014: CATRigHub003Bone002Bone001
+    400016: CATRigHub003Bone002Bone001Bone001
+    400018: CATRigHub003Bone002Bone001Bone001Bone001
+    400020: CATRigLArm1
+    400022: CATRigLArm2
+    400024: CATRigLArmCollarbone
+    400026: CATRigLArmIKTarget
+    400028: CATRigLArmPalm
+    400030: CATRigLLeg1
+    400032: CATRigLLeg2
+    400034: CATRigLLegAnkle
+    400036: CATRigLLegPlatform
+    400038: CATRigRArm1
+    400040: CATRigRArm2
+    400042: CATRigRArmCollarbone
+    400044: CATRigRArmIKTarget
+    400046: CATRigRArmPalm
+    400048: CATRigRLeg1
+    400050: CATRigRLeg2
+    400052: CATRigRLegAnkle
+    400054: CATRigRLegPlatform
+    400056: CATRigSpine
+    400058: CATRigSpine 1
+    400060: Character001
+    400062: Circle001
+    400064: Circle001 1
+    400066: Obi
+    400068: //RootNode
+    4300000: Obi
+    4300002: CapsuleRetopo
+    9500000: //RootNode
+    13700000: CapsuleRetopo
+    13700002: Obi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

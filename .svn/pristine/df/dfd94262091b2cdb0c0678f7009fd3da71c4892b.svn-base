@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: f640ad87292fa7446a92c2bb3c2d78b4
+timeCreated: 1500984982
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Portal_Box_Tubes
+    100004: Portal_Exterior_Ring
+    100006: Portal_interior_Ring
+    100008: Portal_Intermedium_Ring
+    100010: Portal_Module_Large
+    100012: Portal_Module_little
+    100014: Portal_Module_Medium
+    100016: Portal_SupPartRing
+    100018: Portal_Supports
+    100020: Portal_Tubes
+    400000: //RootNode
+    400002: Portal_Box_Tubes
+    400004: Portal_Exterior_Ring
+    400006: Portal_interior_Ring
+    400008: Portal_Intermedium_Ring
+    400010: Portal_Module_Large
+    400012: Portal_Module_little
+    400014: Portal_Module_Medium
+    400016: Portal_SupPartRing
+    400018: Portal_Supports
+    400020: Portal_Tubes
+    2300000: Portal_Box_Tubes
+    2300002: Portal_Exterior_Ring
+    2300004: Portal_interior_Ring
+    2300006: Portal_Intermedium_Ring
+    2300008: Portal_Module_Large
+    2300010: Portal_Module_little
+    2300012: Portal_Module_Medium
+    2300014: Portal_SupPartRing
+    2300016: Portal_Supports
+    2300018: Portal_Tubes
+    3300000: Portal_Box_Tubes
+    3300002: Portal_Exterior_Ring
+    3300004: Portal_interior_Ring
+    3300006: Portal_Intermedium_Ring
+    3300008: Portal_Module_Large
+    3300010: Portal_Module_little
+    3300012: Portal_Module_Medium
+    3300014: Portal_SupPartRing
+    3300016: Portal_Supports
+    3300018: Portal_Tubes
+    4300000: Portal_Tubes
+    4300002: Portal_Box_Tubes
+    4300004: Portal_Module_Large
+    4300006: Portal_Module_little
+    4300008: Portal_interior_Ring
+    4300010: Portal_Module_Medium
+    4300012: Portal_Supports
+    4300014: Portal_Intermedium_Ring
+    4300016: Portal_SupPartRing
+    4300018: Portal_Exterior_Ring
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

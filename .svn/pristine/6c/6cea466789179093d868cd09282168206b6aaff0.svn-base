@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlantis-virtualpark-svn.Plugins", "atlantis-virtualpark-svn.Plugins.csproj", "{5F73AAA2-96B6-930D-33A6-52036909EB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlantis-virtualpark-svn", "atlantis-virtualpark-svn.csproj", "{554BAA37-0BA1-CCB7-5A37-E7D6706FA52D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlantis-virtualpark-svn.Editor.Plugins", "atlantis-virtualpark-svn.Editor.Plugins.csproj", "{8649BBCF-4963-FCBD-C2ED-8F510CB936C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "atlantis-virtualpark-svn.Editor", "atlantis-virtualpark-svn.Editor.csproj", "{4A4E0393-0C50-8A07-8FEC-C08120B821AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F73AAA2-96B6-930D-33A6-52036909EB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F73AAA2-96B6-930D-33A6-52036909EB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F73AAA2-96B6-930D-33A6-52036909EB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F73AAA2-96B6-930D-33A6-52036909EB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554BAA37-0BA1-CCB7-5A37-E7D6706FA52D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554BAA37-0BA1-CCB7-5A37-E7D6706FA52D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554BAA37-0BA1-CCB7-5A37-E7D6706FA52D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554BAA37-0BA1-CCB7-5A37-E7D6706FA52D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8649BBCF-4963-FCBD-C2ED-8F510CB936C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8649BBCF-4963-FCBD-C2ED-8F510CB936C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8649BBCF-4963-FCBD-C2ED-8F510CB936C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8649BBCF-4963-FCBD-C2ED-8F510CB936C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4E0393-0C50-8A07-8FEC-C08120B821AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4E0393-0C50-8A07-8FEC-C08120B821AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4E0393-0C50-8A07-8FEC-C08120B821AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4E0393-0C50-8A07-8FEC-C08120B821AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

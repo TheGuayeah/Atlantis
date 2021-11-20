@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: ce6e15858f92ad046850bbddc02e4a3b
+timeCreated: 1472809061
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: CAPSULE
+    100004: CapsuleRetopo
+    100006: CATRigHub001
+    100008: CATRigHub002
+    100010: CATRigHub003
+    100012: CATRigHub003Bone001
+    100014: CATRigHub003Bone002
+    100016: CATRigHub003Bone002Bone001
+    100018: CATRigHub003Bone002Bone001Bone001
+    100020: CATRigHub003Bone002Bone001Bone001Bone001
+    100022: CATRigLArm1
+    100024: CATRigLArm2
+    100026: CATRigLArmCollarbone
+    100028: CATRigLArmIKTarget
+    100030: CATRigLArmPalm
+    100032: CATRigLArmUpVectorNode
+    100034: CATRigLLeg1
+    100036: CATRigLLeg2
+    100038: CATRigLLegAnkle
+    100040: CATRigLLegPlatform
+    100042: CATRigRArm1
+    100044: CATRigRArm2
+    100046: CATRigRArmCollarbone
+    100048: CATRigRArmIKTarget
+    100050: CATRigRArmPalm
+    100052: CATRigRArmUpVectorNode
+    100054: CATRigRLeg1
+    100056: CATRigRLeg2
+    100058: CATRigRLegAnkle
+    100060: CATRigRLegPlatform
+    100062: CATRigSpine
+    100064: CATRigSpine 1
+    100066: Character001
+    100068: Circle001
+    100070: Circle001 1
+    100072: Obi
+    400000: //RootNode
+    400002: CAPSULE
+    400004: CapsuleRetopo
+    400006: CATRigHub001
+    400008: CATRigHub002
+    400010: CATRigHub003
+    400012: CATRigHub003Bone001
+    400014: CATRigHub003Bone002
+    400016: CATRigHub003Bone002Bone001
+    400018: CATRigHub003Bone002Bone001Bone001
+    400020: CATRigHub003Bone002Bone001Bone001Bone001
+    400022: CATRigLArm1
+    400024: CATRigLArm2
+    400026: CATRigLArmCollarbone
+    400028: CATRigLArmIKTarget
+    400030: CATRigLArmPalm
+    400032: CATRigLArmUpVectorNode
+    400034: CATRigLLeg1
+    400036: CATRigLLeg2
+    400038: CATRigLLegAnkle
+    400040: CATRigLLegPlatform
+    400042: CATRigRArm1
+    400044: CATRigRArm2
+    400046: CATRigRArmCollarbone
+    400048: CATRigRArmIKTarget
+    400050: CATRigRArmPalm
+    400052: CATRigRArmUpVectorNode
+    400054: CATRigRLeg1
+    400056: CATRigRLeg2
+    400058: CATRigRLegAnkle
+    400060: CATRigRLegPlatform
+    400062: CATRigSpine
+    400064: CATRigSpine 1
+    400066: Character001
+    400068: Circle001
+    400070: Circle001 1
+    400072: Obi
+    4300000: Obi
+    4300002: CapsuleRetopo
+    7400000: Asustado
+    7400002: Idle
+    9500000: //RootNode
+    13700000: CapsuleRetopo
+    13700002: Obi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Asustado
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CAPSULE
+        weight: 1
+      - path: CapsuleRetopo
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Circle001 1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmUpVectorNode
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmUpVectorNode
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001/CATRigHub003Bone002Bone001Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001/CATRigHub003Bone002Bone001Bone001/CATRigHub003Bone002Bone001Bone001Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigLArmIKTarget
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigLLegPlatform
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigRArmIKTarget
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigRLegPlatform
+        weight: 1
+      - path: Obi
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CAPSULE
+        weight: 1
+      - path: CapsuleRetopo
+        weight: 1
+      - path: Character001
+        weight: 1
+      - path: Circle001
+        weight: 1
+      - path: Circle001/Circle001 1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1/CATRigLLeg2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigLLeg1/CATRigLLeg2/CATRigLLegAnkle
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1/CATRigRLeg2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigRLeg1/CATRigRLeg2/CATRigRLegAnkle
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmCollarbone/CATRigLArm1/CATRigLArm2/CATRigLArmPalm
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigLArmUpVectorNode
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmCollarbone/CATRigRArm1/CATRigRArm2/CATRigRArmPalm
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigRArmUpVectorNode
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001/CATRigHub003Bone002Bone001Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigHub001/CATRigSpine/CATRigHub002/CATRigSpine
+          1/CATRigHub003/CATRigHub003Bone002/CATRigHub003Bone002Bone001/CATRigHub003Bone002Bone001Bone001/CATRigHub003Bone002Bone001Bone001Bone001
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigLArmIKTarget
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigLLegPlatform
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigRArmIKTarget
+        weight: 1
+      - path: Circle001/Circle001 1/CATRigRLegPlatform
+        weight: 1
+      - path: Obi
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

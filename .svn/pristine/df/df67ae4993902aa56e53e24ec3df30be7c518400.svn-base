@@ -1,0 +1,335 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Serialization;  
+using UnityEngine.SceneManagement;
+
+public class Obi_Script : MonoBehaviour
+{
+    [Range(0,1)]
+    public float FloatingSpeed;
+    public enum ObiStates { RUTA1, STOP1, RUTA2, STOP2, RUTA3, STOP3, AVISO, INICIO_SALTO }
+    public ObiStates State;
+    public GameObject ObiAnimObj, VR_CAM;
+    public AudioSource Movidito;
+    public CelulaManager_Script Manager;
+    public List<GameObject> R1, R2, R3, STOPS,RJump;
+    public float Speed, RSpeed, Radius, StopClock;
+    private int CureentWayPoint;
+    private bool Floating;
+    public bool Salto;
+    public int ObiSalto;
+    public float ObiSaltoTime;
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    { 
+        if (ObiAnimObj.transform.localPosition == new Vector3(ObiAnimObj.transform.localPosition.x, 0.10f, ObiAnimObj.transform.localPosition.z))
+        {
+            Floating = false;
+        }
+
+        if (ObiAnimObj.transform.localPosition == new Vector3(ObiAnimObj.transform.localPosition.x, -0.10f, ObiAnimObj.transform.localPosition.z))
+        {
+            Floating = true;
+        }
+
+        if (Floating)
+        {
+            ObiAnimObj.transform.localPosition = Vector3.MoveTowards(ObiAnimObj.transform.localPosition, new Vector3(ObiAnimObj.transform.localPosition.x, 0.10f, ObiAnimObj.transform.localPosition.z), FloatingSpeed * Time.deltaTime);
+        }
+
+        else
+        {
+            ObiAnimObj.transform.localPosition = Vector3.MoveTowards(ObiAnimObj.transform.localPosition, new Vector3(ObiAnimObj.transform.localPosition.x, -0.10f, ObiAnimObj.transform.localPosition.z), FloatingSpeed * Time.deltaTime);
+        }
+        if (!Salto)
+        {
+            switch (State)
+            {
+
+                case ObiStates.RUTA1:
+
+                    float Dist1 = Vector3.Distance(transform.position, R1[CureentWayPoint].transform.position);
+                    LookAt(R1[CureentWayPoint]);
+                    if (Dist1 < Radius)
+                    {
+                        CureentWayPoint++;
+                        if (CureentWayPoint > R1.Count - 1)
+                        {
+                            CureentWayPoint = 0;
+                            ChangeState(ObiStates.STOP1);
+                        }
+                    }
+
+                    break;
+
+                case ObiStates.RUTA2:
+
+                    LookAt(R2[CureentWayPoint]);
+
+                    float Dist2 = Vector3.Distance(transform.position, R2[CureentWayPoint].transform.position);
+                    if (Dist2 < Radius)
+                    {
+                        CureentWayPoint++;
+                        if (CureentWayPoint > R2.Count - 1)
+                        {
+                            CureentWayPoint = 0;
+                            ChangeState(ObiStates.STOP2);
+                        }
+                    }
+
+                    break;
+
+                case ObiStates.RUTA3:
+
+                    LookAt(R3[CureentWayPoint]);
+
+                    float Dist3 = Vector3.Distance(transform.position, R3[CureentWayPoint].transform.position);
+                    if (Dist3 < Radius)
+                    {
+                        CureentWayPoint++;
+                        if (CureentWayPoint > R3.Count - 1)
+                        {
+                            CureentWayPoint = 0;
+                            ChangeState(ObiStates.STOP3);
+                        }
+                    }
+                    break;
+
+                case ObiStates.STOP1:
+
+                    float Dist4 = Vector3.Distance(transform.position, STOPS[0].transform.position);
+                    LookAt(STOPS[0]);
+                    if (Dist4 < Radius)
+                    {
+                        StopClock += Time.deltaTime;
+
+                        if (StopClock > 3)
+                        {
+                            ChangeState(ObiStates.AVISO);
+                            StopClock = 0;
+                        }
+                    }
+                    break;
+                case ObiStates.STOP2:
+
+                    float Dist5 = Vector3.Distance(transform.position, STOPS[1].transform.position);
+                    LookAt(STOPS[1]);
+                    if (Dist5 < Radius)
+                    {
+                        StopClock += Time.deltaTime;
+
+                        if (StopClock > 3)
+                        {
+                            ChangeState(ObiStates.AVISO);
+                            StopClock = 0;
+                        }
+                    }
+                    break;
+                case ObiStates.STOP3:
+
+                    float Dist6 = Vector3.Distance(transform.position, STOPS[2].transform.position);
+                    LookAt(STOPS[2]);
+                    if (Dist6 < Radius)
+                    {
+                        StopClock += Time.deltaTime;
+
+                        if (StopClock > 3)
+                        {
+                            ChangeState(ObiStates.AVISO);
+                            StopClock = 0;
+                        }
+                    }
+                    break;
+                case ObiStates.AVISO:
+                    float Dist7 = Vector3.Distance(transform.position, STOPS[3].transform.position);
+                    if (Dist7 < Radius)
+                    {
+                        StopClock += Time.deltaTime;
+                        LookAtCamera(STOPS[4]);
+                        if (StopClock > 6)
+                        {
+                            int RandomNum;
+                            RandomNum = Random.Range(1, 4);
+
+                            if (RandomNum == 1)
+                            {
+                                ChangeState(ObiStates.RUTA1);
+                            }
+
+                            if (RandomNum == 2)
+                            {
+                                ChangeState(ObiStates.RUTA2);
+                            }
+
+                            if (RandomNum == 3)
+                            {
+                                ChangeState(ObiStates.RUTA3);
+                            }
+                            StopClock = 0;
+                        }
+                    }
+                    else
+                    {
+                        LookAt(STOPS[3]);
+                    }
+
+                    break;
+            }
+        } 
+        else
+        {
+            RutaObiSalto();
+            ObiSaltoTime += Time.deltaTime;
+        }
+    }
+
+    private void LookAt(GameObject obj)
+    {       
+        transform.position = Vector3.MoveTowards(transform.position, obj.transform.position, Speed * Time.deltaTime);
+        Vector3 Dir = obj.transform.position - transform.position;
+        float step = RSpeed * Time.deltaTime;
+        Vector3 newDir = Vector3.RotateTowards(transform.forward, Dir, step, 0.0F);
+        transform.rotation = Quaternion.LookRotation(newDir);
+    }
+
+    private void LookAtCamera(GameObject obj)
+    {
+        Vector3 Dir = obj.transform.position - transform.position;
+        float step = RSpeed * Time.deltaTime;
+        Vector3 newDir = Vector3.RotateTowards(transform.forward, Dir, step, 0.0F);
+        transform.rotation = Quaternion.LookRotation(newDir);
+    }
+
+    public void ChangeState(ObiStates NewState)
+    {
+        State = NewState;
+    } 
+
+    public void RutaObiSalto()
+    {
+        switch (State)
+        {
+            case ObiStates.INICIO_SALTO:
+                RutaObiSalto2();
+                break;
+        }
+        }
+    public void RutaObiSalto2()
+    {
+        Manager.InstantiateSFX();
+        if (ObiSalto == 0)
+        {
+            CureentWayPoint = 0;
+            LookAtCamera(STOPS[4]);
+            if (ObiSaltoTime >= 3.5f)
+            {
+                ObiSalto++;
+            }
+        }
+        if (ObiSalto == 1)
+        {
+            LookAt(RJump[0]);
+            float Dist = Vector3.Distance(transform.position, RJump[CureentWayPoint].transform.position);
+            if (Dist < Radius)
+            {
+                float Dist_1 = Vector3.Distance(transform.position, STOPS[0].transform.position);
+                LookAt(STOPS[0]);
+                if (Dist_1 < Radius)
+                {
+                    if (ObiSaltoTime >= 6f)
+                    {
+                        Manager.Scene_SFX[2] = true;
+                        ObiSalto++;
+                    }
+                }
+            }
+        }
+        if (ObiSalto == 2)
+        {
+            Manager.ColumnaLightDown();
+            if (ObiSaltoTime >= 20.5f)
+            {
+                Manager.Scene_SFX[3] = true;
+                ObiSalto++;
+            }
+        }
+        if (ObiSalto == 3)
+        {
+            LookAtCamera(STOPS[4]);
+            if (ObiSaltoTime >= 30.5f)
+            {
+                Manager.Scene_SFX[4] = true;
+                CureentWayPoint++;
+                ObiSalto++;
+            }
+        }
+        if (ObiSalto == 4)
+        {
+            float Dist1 = Vector3.Distance(transform.position, RJump[CureentWayPoint].transform.position);
+            LookAt(RJump[CureentWayPoint]);
+            if (Dist1 < Radius)
+            {
+                if (CureentWayPoint == 1)
+                {
+                    CureentWayPoint++;
+                }
+                if (ObiSaltoTime >= 38f)
+                {
+                    Manager.Scene_SFX[5] = true;
+                    transform.position = RJump[3].transform.position;
+                    transform.rotation = Quaternion.Euler(0f, 37.33f, 0);
+                    ObiSalto++;
+                }
+            }
+        }
+        if (ObiSalto == 5)
+        {
+            Vector3 Dir = VR_CAM.transform.position - transform.position;
+            float step = RSpeed * Time.deltaTime;
+            Vector3 newDir = Vector3.RotateTowards(transform.forward, Dir, step, 0.0F);
+            transform.position = Vector3.MoveTowards(transform.position, RJump[4].transform.position, Speed * Time.deltaTime);
+            if (transform.position == RJump[4].transform.position)
+            {
+                if (ObiSaltoTime >= 43f)
+                {
+                    ObiSalto++;
+                }
+            }
+        }
+        if (ObiSalto == 6)
+        {
+            float Dist2 = Vector3.Distance(transform.position, RJump[5].transform.position);
+            LookAt(RJump[5]);
+            if (Dist2 <= Radius)
+            {
+                Movidito.enabled = true;
+                GameObject NewSilla = GameObject.Find("SillaPlayer");
+                transform.parent = NewSilla.transform;
+                if (ObiSaltoTime >= 51f)
+                {
+                    ObiSalto++;
+                }
+            }
+           
+        }
+        if (ObiSalto == 7)
+        {
+            Movidito.enabled = false;
+            GameObject NewSilla2 = GameObject.Find("SillaPlayer");
+            transform.parent = NewSilla2.transform;
+            Manager.Silla.SetBool("Viajar", true);
+        }
+
+
+    }   
+}
+
+
